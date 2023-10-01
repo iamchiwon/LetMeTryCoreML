@@ -12,7 +12,7 @@
 
 ## Projects
 
-### ParkBirdie (찍새)
+### [ParkBirdie (찍새)](https://github.com/iamchiwon/LetMeTryCoreML/tree/main/ParkBirdie)
 - Object Detection
 - 국립공원 안에서 찍은 사진인지 감지
 - 사진에 새가 찍혔는지 감지
