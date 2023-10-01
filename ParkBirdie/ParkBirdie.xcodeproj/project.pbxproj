@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1DD2DC82AC9D2C100E70595 /* ParkBirdieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2DC72AC9D2C100E70595 /* ParkBirdieApp.swift */; };
+		A1DD2DCA2AC9D2C100E70595 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2DC92AC9D2C100E70595 /* ContentView.swift */; };
+		A1DD2DCC2AC9D2C300E70595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DD2DCB2AC9D2C300E70595 /* Assets.xcassets */; };
+		A1DD2DCF2AC9D2C300E70595 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DD2DCE2AC9D2C300E70595 /* Preview Assets.xcassets */; };
+		A1DD2DDA2AC9DF7500E70595 /* public_park.json in Resources */ = {isa = PBXBuildFile; fileRef = A1DD2DD92AC9DF7500E70595 /* public_park.json */; };
+		A1DD2DDC2AC9DFBD00E70595 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2DDB2AC9DFBD00E70595 /* Park.swift */; };
+		A1DD2DDE2AC9DFEB00E70595 /* ParkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2DDD2AC9DFEB00E70595 /* ParkService.swift */; };
+		A1DD2DE22AC9E41700E70595 /* BirdService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2DE12AC9E41700E70595 /* BirdService.swift */; };
+		A1DD2DE62AC9E52B00E70595 /* YOLOv3Tiny.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2DE52AC9E52B00E70595 /* YOLOv3Tiny.mlmodel */; };
+		A1DD2DE82AC9E74900E70595 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2DE72AC9E74900E70595 /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1DD2DC42AC9D2C100E70595 /* ParkBirdie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkBirdie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DD2DC72AC9D2C100E70595 /* ParkBirdieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkBirdieApp.swift; sourceTree = "<group>"; };
+		A1DD2DC92AC9D2C100E70595 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1DD2DCB2AC9D2C300E70595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1DD2DCE2AC9D2C300E70595 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1DD2DD92AC9DF7500E70595 /* public_park.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = public_park.json; sourceTree = "<group>"; };
+		A1DD2DDB2AC9DFBD00E70595 /* Park.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		A1DD2DDD2AC9DFEB00E70595 /* ParkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkService.swift; sourceTree = "<group>"; };
+		A1DD2DE12AC9E41700E70595 /* BirdService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdService.swift; sourceTree = "<group>"; };
+		A1DD2DE52AC9E52B00E70595 /* YOLOv3Tiny.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3Tiny.mlmodel; sourceTree = "<group>"; };
+		A1DD2DE72AC9E74900E70595 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A1DD2DE92AC9EB2600E70595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1DD2DC12AC9D2C100E70595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1DD2DBB2AC9D2C100E70595 = {
+			isa = PBXGroup;
+			children = (
+				A1DD2DC62AC9D2C100E70595 /* ParkBirdie */,
+				A1DD2DC52AC9D2C100E70595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1DD2DC52AC9D2C100E70595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD2DC42AC9D2C100E70595 /* ParkBirdie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1DD2DC62AC9D2C100E70595 /* ParkBirdie */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD2DE92AC9EB2600E70595 /* Info.plist */,
+				A1DD2DE02AC9E06600E70595 /* model */,
+				A1DD2DDF2AC9DFF000E70595 /* services */,
+				A1DD2DC72AC9D2C100E70595 /* ParkBirdieApp.swift */,
+				A1DD2DC92AC9D2C100E70595 /* ContentView.swift */,
+				A1DD2DE72AC9E74900E70595 /* ImagePicker.swift */,
+				A1DD2DCB2AC9D2C300E70595 /* Assets.xcassets */,
+				A1DD2DD92AC9DF7500E70595 /* public_park.json */,
+				A1DD2DE52AC9E52B00E70595 /* YOLOv3Tiny.mlmodel */,
+				A1DD2DCD2AC9D2C300E70595 /* Preview Content */,
+			);
+			path = ParkBirdie;
+			sourceTree = "<group>";
+		};
+		A1DD2DCD2AC9D2C300E70595 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD2DCE2AC9D2C300E70595 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1DD2DDF2AC9DFF000E70595 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD2DDD2AC9DFEB00E70595 /* ParkService.swift */,
+				A1DD2DE12AC9E41700E70595 /* BirdService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		A1DD2DE02AC9E06600E70595 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD2DDB2AC9DFBD00E70595 /* Park.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1DD2DC32AC9D2C100E70595 /* ParkBirdie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1DD2DD22AC9D2C300E70595 /* Build configuration list for PBXNativeTarget "ParkBirdie" */;
+			buildPhases = (
+				A1DD2DC02AC9D2C100E70595 /* Sources */,
+				A1DD2DC12AC9D2C100E70595 /* Frameworks */,
+				A1DD2DC22AC9D2C100E70595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkBirdie;
+			productName = ParkBirdie;
+			productReference = A1DD2DC42AC9D2C100E70595 /* ParkBirdie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1DD2DBC2AC9D2C100E70595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1DD2DC32AC9D2C100E70595 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A1DD2DBF2AC9D2C100E70595 /* Build configuration list for PBXProject "ParkBirdie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1DD2DBB2AC9D2C100E70595;
+			productRefGroup = A1DD2DC52AC9D2C100E70595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1DD2DC32AC9D2C100E70595 /* ParkBirdie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1DD2DC22AC9D2C100E70595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DD2DDA2AC9DF7500E70595 /* public_park.json in Resources */,
+				A1DD2DCF2AC9D2C300E70595 /* Preview Assets.xcassets in Resources */,
+				A1DD2DCC2AC9D2C300E70595 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1DD2DC02AC9D2C100E70595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DD2DCA2AC9D2C100E70595 /* ContentView.swift in Sources */,
+				A1DD2DDC2AC9DFBD00E70595 /* Park.swift in Sources */,
+				A1DD2DC82AC9D2C100E70595 /* ParkBirdieApp.swift in Sources */,
+				A1DD2DE82AC9E74900E70595 /* ImagePicker.swift in Sources */,
+				A1DD2DDE2AC9DFEB00E70595 /* ParkService.swift in Sources */,
+				A1DD2DE62AC9E52B00E70595 /* YOLOv3Tiny.mlmodel in Sources */,
+				A1DD2DE22AC9E41700E70595 /* BirdService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1DD2DD02AC9D2C300E70595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1DD2DD12AC9D2C300E70595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1DD2DD32AC9D2C300E70595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParkBirdie/Preview Content\"";
+				DEVELOPMENT_TEAM = 77YZ9248DM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkBirdie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "찍새";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "새 사진을 찍어보세요";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "국립공원에서 찍어보아요";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "국립공원에서 찍어보아요";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "새 사진을 골라보아요";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearfried.ai.ParkBirdie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1DD2DD42AC9D2C300E70595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParkBirdie/Preview Content\"";
+				DEVELOPMENT_TEAM = 77YZ9248DM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkBirdie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "찍새";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "새 사진을 찍어보세요";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "국립공원에서 찍어보아요";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "국립공원에서 찍어보아요";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "새 사진을 골라보아요";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearfried.ai.ParkBirdie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1DD2DBF2AC9D2C100E70595 /* Build configuration list for PBXProject "ParkBirdie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DD2DD02AC9D2C300E70595 /* Debug */,
+				A1DD2DD12AC9D2C300E70595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1DD2DD22AC9D2C300E70595 /* Build configuration list for PBXNativeTarget "ParkBirdie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DD2DD32AC9D2C300E70595 /* Debug */,
+				A1DD2DD42AC9D2C300E70595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1DD2DBC2AC9D2C100E70595 /* Project object */;
+}
