@@ -6,7 +6,7 @@
 
 ![Alt text](doc/tasks.png)
 
-### Model
+### ML Model
 
 - Object Detection : [YOLOv3-Tiny.mlmodel](https://developer.apple.com/kr/machine-learning/models)
 
