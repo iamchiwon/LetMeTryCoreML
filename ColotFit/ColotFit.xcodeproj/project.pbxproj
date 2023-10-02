@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1DD2F112ACB6D8200E70595 /* ColotFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F102ACB6D8200E70595 /* ColotFitApp.swift */; };
+		A1DD2F132ACB6D8200E70595 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F122ACB6D8200E70595 /* ContentView.swift */; };
+		A1DD2F152ACB6D8400E70595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DD2F142ACB6D8400E70595 /* Assets.xcassets */; };
+		A1DD2F182ACB6D8400E70595 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DD2F172ACB6D8400E70595 /* Preview Assets.xcassets */; };
+		A1DD2F212ACB6DC800E70595 /* ColorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F202ACB6DC800E70595 /* ColorService.swift */; };
+		A1DD2F6F2ACB6F1600E70595 /* UIImage+Lab.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F6C2ACB6F1500E70595 /* UIImage+Lab.mm */; };
+		A1DD2F702ACB6F1600E70595 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F6E2ACB6F1600E70595 /* UIImage+Utils.swift */; };
+		A1DD2F932ACB6F5800E70595 /* cmsplugin.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F712ACB6F4300E70595 /* cmsplugin.c */; };
+		A1DD2F942ACB6F5800E70595 /* cmssamp.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F722ACB6F4400E70595 /* cmssamp.c */; };
+		A1DD2F952ACB6F5800E70595 /* cmsgamma.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F732ACB6F4400E70595 /* cmsgamma.c */; };
+		A1DD2F962ACB6F5800E70595 /* cmsgmt.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F742ACB6F4500E70595 /* cmsgmt.c */; };
+		A1DD2F972ACB6F5800E70595 /* cmssm.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F772ACB6F4700E70595 /* cmssm.c */; };
+		A1DD2F982ACB6F5800E70595 /* cmsnamed.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F782ACB6F4800E70595 /* cmsnamed.c */; };
+		A1DD2F992ACB6F5800E70595 /* cmstypes.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F792ACB6F4800E70595 /* cmstypes.c */; };
+		A1DD2F9A2ACB6F5800E70595 /* cmspack.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F7A2ACB6F4900E70595 /* cmspack.c */; };
+		A1DD2F9B2ACB6F5800E70595 /* sRGB_v4_ICC_preference.icc in Resources */ = {isa = PBXBuildFile; fileRef = A1DD2F7B2ACB6F4900E70595 /* sRGB_v4_ICC_preference.icc */; };
+		A1DD2F9C2ACB6F5800E70595 /* cmsxform.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F7C2ACB6F4A00E70595 /* cmsxform.c */; };
+		A1DD2F9D2ACB6F5800E70595 /* cmsmtrx.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F7D2ACB6F4B00E70595 /* cmsmtrx.c */; };
+		A1DD2F9E2ACB6F5800E70595 /* cmslut.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F7E2ACB6F4B00E70595 /* cmslut.c */; };
+		A1DD2F9F2ACB6F5800E70595 /* lcms2.def in Resources */ = {isa = PBXBuildFile; fileRef = A1DD2F7F2ACB6F4C00E70595 /* lcms2.def */; };
+		A1DD2FA02ACB6F5800E70595 /* cmspcs.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F802ACB6F4C00E70595 /* cmspcs.c */; };
+		A1DD2FA12ACB6F5800E70595 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = A1DD2F812ACB6F4D00E70595 /* Makefile.am */; };
+		A1DD2FA22ACB6F5800E70595 /* cmsvirt.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F822ACB6F4E00E70595 /* cmsvirt.c */; };
+		A1DD2FA32ACB6F5800E70595 /* cmshalf.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F832ACB6F4E00E70595 /* cmshalf.c */; };
+		A1DD2FA42ACB6F5800E70595 /* cmsopt.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F842ACB6F4F00E70595 /* cmsopt.c */; };
+		A1DD2FA52ACB6F5800E70595 /* cmsio0.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F852ACB6F4F00E70595 /* cmsio0.c */; };
+		A1DD2FA62ACB6F5800E70595 /* cmsio1.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F862ACB6F5000E70595 /* cmsio1.c */; };
+		A1DD2FA72ACB6F5800E70595 /* cmserr.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F872ACB6F5100E70595 /* cmserr.c */; };
+		A1DD2FA82ACB6F5800E70595 /* cmsps2.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F882ACB6F5100E70595 /* cmsps2.c */; };
+		A1DD2FA92ACB6F5800E70595 /* cmsalpha.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F892ACB6F5200E70595 /* cmsalpha.c */; };
+		A1DD2FAA2ACB6F5800E70595 /* cmswtpnt.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F8A2ACB6F5200E70595 /* cmswtpnt.c */; };
+		A1DD2FAB2ACB6F5800E70595 /* sRGB_ICC_v4_Appearance.icc in Resources */ = {isa = PBXBuildFile; fileRef = A1DD2F8B2ACB6F5300E70595 /* sRGB_ICC_v4_Appearance.icc */; };
+		A1DD2FAC2ACB6F5800E70595 /* cmscam02.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F8C2ACB6F5400E70595 /* cmscam02.c */; };
+		A1DD2FAD2ACB6F5800E70595 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = A1DD2F8D2ACB6F5400E70595 /* Makefile.in */; };
+		A1DD2FAE2ACB6F5800E70595 /* cmscnvrt.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F8F2ACB6F5500E70595 /* cmscnvrt.c */; };
+		A1DD2FAF2ACB6F5800E70595 /* cmscgats.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F902ACB6F5600E70595 /* cmscgats.c */; };
+		A1DD2FB02ACB6F5800E70595 /* cmsintrp.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F912ACB6F5700E70595 /* cmsintrp.c */; };
+		A1DD2FB12ACB6F5800E70595 /* cmsmd5.c in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2F922ACB6F5800E70595 /* cmsmd5.c */; };
+		A1DD2FB72ACB741900E70595 /* Colorizer.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = A1DD2FB62ACB741900E70595 /* Colorizer.mlpackage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1DD2F0D2ACB6D8200E70595 /* ColotFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColotFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DD2F102ACB6D8200E70595 /* ColotFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColotFitApp.swift; sourceTree = "<group>"; };
+		A1DD2F122ACB6D8200E70595 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1DD2F142ACB6D8400E70595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1DD2F172ACB6D8400E70595 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1DD2F202ACB6DC800E70595 /* ColorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorService.swift; sourceTree = "<group>"; };
+		A1DD2F252ACB6E4400E70595 /* ColotFit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColotFit-Bridging-Header.h"; sourceTree = "<group>"; };
+		A1DD2F6C2ACB6F1500E70595 /* UIImage+Lab.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+Lab.mm"; sourceTree = "<group>"; };
+		A1DD2F6D2ACB6F1500E70595 /* UIImage+Lab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Lab.h"; sourceTree = "<group>"; };
+		A1DD2F6E2ACB6F1600E70595 /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
+		A1DD2F712ACB6F4300E70595 /* cmsplugin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsplugin.c; sourceTree = "<group>"; };
+		A1DD2F722ACB6F4400E70595 /* cmssamp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmssamp.c; sourceTree = "<group>"; };
+		A1DD2F732ACB6F4400E70595 /* cmsgamma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsgamma.c; sourceTree = "<group>"; };
+		A1DD2F742ACB6F4500E70595 /* cmsgmt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsgmt.c; sourceTree = "<group>"; };
+		A1DD2F752ACB6F4500E70595 /* lcms2_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcms2_internal.h; sourceTree = "<group>"; };
+		A1DD2F762ACB6F4600E70595 /* lcms2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcms2.h; sourceTree = "<group>"; };
+		A1DD2F772ACB6F4700E70595 /* cmssm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmssm.c; sourceTree = "<group>"; };
+		A1DD2F782ACB6F4800E70595 /* cmsnamed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsnamed.c; sourceTree = "<group>"; };
+		A1DD2F792ACB6F4800E70595 /* cmstypes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmstypes.c; sourceTree = "<group>"; };
+		A1DD2F7A2ACB6F4900E70595 /* cmspack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmspack.c; sourceTree = "<group>"; };
+		A1DD2F7B2ACB6F4900E70595 /* sRGB_v4_ICC_preference.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = sRGB_v4_ICC_preference.icc; sourceTree = "<group>"; };
+		A1DD2F7C2ACB6F4A00E70595 /* cmsxform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsxform.c; sourceTree = "<group>"; };
+		A1DD2F7D2ACB6F4B00E70595 /* cmsmtrx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsmtrx.c; sourceTree = "<group>"; };
+		A1DD2F7E2ACB6F4B00E70595 /* cmslut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmslut.c; sourceTree = "<group>"; };
+		A1DD2F7F2ACB6F4C00E70595 /* lcms2.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lcms2.def; sourceTree = "<group>"; };
+		A1DD2F802ACB6F4C00E70595 /* cmspcs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmspcs.c; sourceTree = "<group>"; };
+		A1DD2F812ACB6F4D00E70595 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1DD2F822ACB6F4E00E70595 /* cmsvirt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsvirt.c; sourceTree = "<group>"; };
+		A1DD2F832ACB6F4E00E70595 /* cmshalf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmshalf.c; sourceTree = "<group>"; };
+		A1DD2F842ACB6F4F00E70595 /* cmsopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsopt.c; sourceTree = "<group>"; };
+		A1DD2F852ACB6F4F00E70595 /* cmsio0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsio0.c; sourceTree = "<group>"; };
+		A1DD2F862ACB6F5000E70595 /* cmsio1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsio1.c; sourceTree = "<group>"; };
+		A1DD2F872ACB6F5100E70595 /* cmserr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmserr.c; sourceTree = "<group>"; };
+		A1DD2F882ACB6F5100E70595 /* cmsps2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsps2.c; sourceTree = "<group>"; };
+		A1DD2F892ACB6F5200E70595 /* cmsalpha.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsalpha.c; sourceTree = "<group>"; };
+		A1DD2F8A2ACB6F5200E70595 /* cmswtpnt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmswtpnt.c; sourceTree = "<group>"; };
+		A1DD2F8B2ACB6F5300E70595 /* sRGB_ICC_v4_Appearance.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = sRGB_ICC_v4_Appearance.icc; sourceTree = "<group>"; };
+		A1DD2F8C2ACB6F5400E70595 /* cmscam02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmscam02.c; sourceTree = "<group>"; };
+		A1DD2F8D2ACB6F5400E70595 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1DD2F8E2ACB6F5500E70595 /* lcms2_plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcms2_plugin.h; sourceTree = "<group>"; };
+		A1DD2F8F2ACB6F5500E70595 /* cmscnvrt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmscnvrt.c; sourceTree = "<group>"; };
+		A1DD2F902ACB6F5600E70595 /* cmscgats.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmscgats.c; sourceTree = "<group>"; };
+		A1DD2F912ACB6F5700E70595 /* cmsintrp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsintrp.c; sourceTree = "<group>"; };
+		A1DD2F922ACB6F5800E70595 /* cmsmd5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsmd5.c; sourceTree = "<group>"; };
+		A1DD2FB62ACB741900E70595 /* Colorizer.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Colorizer.mlpackage; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1DD2F0A2ACB6D8200E70595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1DD2F042ACB6D8200E70595 = {
+			isa = PBXGroup;
+			children = (
+				A1DD2F0F2ACB6D8200E70595 /* ColotFit */,
+				A1DD2F0E2ACB6D8200E70595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1DD2F0E2ACB6D8200E70595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD2F0D2ACB6D8200E70595 /* ColotFit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1DD2F0F2ACB6D8200E70595 /* ColotFit */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD2F1F2ACB6DB800E70595 /* service */,
+				A1DD2F1E2ACB6DB200E70595 /* utils */,
+				A1DD2F102ACB6D8200E70595 /* ColotFitApp.swift */,
+				A1DD2F122ACB6D8200E70595 /* ContentView.swift */,
+				A1DD2F142ACB6D8400E70595 /* Assets.xcassets */,
+				A1DD2FB62ACB741900E70595 /* Colorizer.mlpackage */,
+				A1DD2F252ACB6E4400E70595 /* ColotFit-Bridging-Header.h */,
+				A1DD2F162ACB6D8400E70595 /* Preview Content */,
+			);
+			path = ColotFit;
+			sourceTree = "<group>";
+		};
+		A1DD2F162ACB6D8400E70595 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD2F172ACB6D8400E70595 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1DD2F1E2ACB6DB200E70595 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD2F242ACB6E1900E70595 /* littlecms */,
+				A1DD2F6D2ACB6F1500E70595 /* UIImage+Lab.h */,
+				A1DD2F6C2ACB6F1500E70595 /* UIImage+Lab.mm */,
+				A1DD2F6E2ACB6F1600E70595 /* UIImage+Utils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		A1DD2F1F2ACB6DB800E70595 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD2F202ACB6DC800E70595 /* ColorService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		A1DD2F242ACB6E1900E70595 /* littlecms */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD2F892ACB6F5200E70595 /* cmsalpha.c */,
+				A1DD2F8C2ACB6F5400E70595 /* cmscam02.c */,
+				A1DD2F902ACB6F5600E70595 /* cmscgats.c */,
+				A1DD2F8F2ACB6F5500E70595 /* cmscnvrt.c */,
+				A1DD2F872ACB6F5100E70595 /* cmserr.c */,
+				A1DD2F732ACB6F4400E70595 /* cmsgamma.c */,
+				A1DD2F742ACB6F4500E70595 /* cmsgmt.c */,
+				A1DD2F832ACB6F4E00E70595 /* cmshalf.c */,
+				A1DD2F912ACB6F5700E70595 /* cmsintrp.c */,
+				A1DD2F852ACB6F4F00E70595 /* cmsio0.c */,
+				A1DD2F862ACB6F5000E70595 /* cmsio1.c */,
+				A1DD2F7E2ACB6F4B00E70595 /* cmslut.c */,
+				A1DD2F922ACB6F5800E70595 /* cmsmd5.c */,
+				A1DD2F7D2ACB6F4B00E70595 /* cmsmtrx.c */,
+				A1DD2F782ACB6F4800E70595 /* cmsnamed.c */,
+				A1DD2F842ACB6F4F00E70595 /* cmsopt.c */,
+				A1DD2F7A2ACB6F4900E70595 /* cmspack.c */,
+				A1DD2F802ACB6F4C00E70595 /* cmspcs.c */,
+				A1DD2F712ACB6F4300E70595 /* cmsplugin.c */,
+				A1DD2F882ACB6F5100E70595 /* cmsps2.c */,
+				A1DD2F722ACB6F4400E70595 /* cmssamp.c */,
+				A1DD2F772ACB6F4700E70595 /* cmssm.c */,
+				A1DD2F792ACB6F4800E70595 /* cmstypes.c */,
+				A1DD2F822ACB6F4E00E70595 /* cmsvirt.c */,
+				A1DD2F8A2ACB6F5200E70595 /* cmswtpnt.c */,
+				A1DD2F7C2ACB6F4A00E70595 /* cmsxform.c */,
+				A1DD2F752ACB6F4500E70595 /* lcms2_internal.h */,
+				A1DD2F8E2ACB6F5500E70595 /* lcms2_plugin.h */,
+				A1DD2F7F2ACB6F4C00E70595 /* lcms2.def */,
+				A1DD2F762ACB6F4600E70595 /* lcms2.h */,
+				A1DD2F812ACB6F4D00E70595 /* Makefile.am */,
+				A1DD2F8D2ACB6F5400E70595 /* Makefile.in */,
+				A1DD2F8B2ACB6F5300E70595 /* sRGB_ICC_v4_Appearance.icc */,
+				A1DD2F7B2ACB6F4900E70595 /* sRGB_v4_ICC_preference.icc */,
+			);
+			path = littlecms;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1DD2F0C2ACB6D8200E70595 /* ColotFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1DD2F1B2ACB6D8400E70595 /* Build configuration list for PBXNativeTarget "ColotFit" */;
+			buildPhases = (
+				A1DD2F092ACB6D8200E70595 /* Sources */,
+				A1DD2F0A2ACB6D8200E70595 /* Frameworks */,
+				A1DD2F0B2ACB6D8200E70595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColotFit;
+			productName = ColotFit;
+			productReference = A1DD2F0D2ACB6D8200E70595 /* ColotFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1DD2F052ACB6D8200E70595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1DD2F0C2ACB6D8200E70595 = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = A1DD2F082ACB6D8200E70595 /* Build configuration list for PBXProject "ColotFit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1DD2F042ACB6D8200E70595;
+			productRefGroup = A1DD2F0E2ACB6D8200E70595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1DD2F0C2ACB6D8200E70595 /* ColotFit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1DD2F0B2ACB6D8200E70595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DD2F182ACB6D8400E70595 /* Preview Assets.xcassets in Resources */,
+				A1DD2FAB2ACB6F5800E70595 /* sRGB_ICC_v4_Appearance.icc in Resources */,
+				A1DD2F152ACB6D8400E70595 /* Assets.xcassets in Resources */,
+				A1DD2FAD2ACB6F5800E70595 /* Makefile.in in Resources */,
+				A1DD2FA12ACB6F5800E70595 /* Makefile.am in Resources */,
+				A1DD2F9B2ACB6F5800E70595 /* sRGB_v4_ICC_preference.icc in Resources */,
+				A1DD2F9F2ACB6F5800E70595 /* lcms2.def in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1DD2F092ACB6D8200E70595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DD2FA92ACB6F5800E70595 /* cmsalpha.c in Sources */,
+				A1DD2F212ACB6DC800E70595 /* ColorService.swift in Sources */,
+				A1DD2FB12ACB6F5800E70595 /* cmsmd5.c in Sources */,
+				A1DD2FAE2ACB6F5800E70595 /* cmscnvrt.c in Sources */,
+				A1DD2F932ACB6F5800E70595 /* cmsplugin.c in Sources */,
+				A1DD2F9C2ACB6F5800E70595 /* cmsxform.c in Sources */,
+				A1DD2F962ACB6F5800E70595 /* cmsgmt.c in Sources */,
+				A1DD2FAC2ACB6F5800E70595 /* cmscam02.c in Sources */,
+				A1DD2FA02ACB6F5800E70595 /* cmspcs.c in Sources */,
+				A1DD2FA82ACB6F5800E70595 /* cmsps2.c in Sources */,
+				A1DD2FA72ACB6F5800E70595 /* cmserr.c in Sources */,
+				A1DD2F972ACB6F5800E70595 /* cmssm.c in Sources */,
+				A1DD2F132ACB6D8200E70595 /* ContentView.swift in Sources */,
+				A1DD2FAA2ACB6F5800E70595 /* cmswtpnt.c in Sources */,
+				A1DD2F9E2ACB6F5800E70595 /* cmslut.c in Sources */,
+				A1DD2FA32ACB6F5800E70595 /* cmshalf.c in Sources */,
+				A1DD2F952ACB6F5800E70595 /* cmsgamma.c in Sources */,
+				A1DD2F9A2ACB6F5800E70595 /* cmspack.c in Sources */,
+				A1DD2FA22ACB6F5800E70595 /* cmsvirt.c in Sources */,
+				A1DD2FB02ACB6F5800E70595 /* cmsintrp.c in Sources */,
+				A1DD2F9D2ACB6F5800E70595 /* cmsmtrx.c in Sources */,
+				A1DD2F992ACB6F5800E70595 /* cmstypes.c in Sources */,
+				A1DD2F6F2ACB6F1600E70595 /* UIImage+Lab.mm in Sources */,
+				A1DD2F982ACB6F5800E70595 /* cmsnamed.c in Sources */,
+				A1DD2FAF2ACB6F5800E70595 /* cmscgats.c in Sources */,
+				A1DD2FA42ACB6F5800E70595 /* cmsopt.c in Sources */,
+				A1DD2F112ACB6D8200E70595 /* ColotFitApp.swift in Sources */,
+				A1DD2F942ACB6F5800E70595 /* cmssamp.c in Sources */,
+				A1DD2FA52ACB6F5800E70595 /* cmsio0.c in Sources */,
+				A1DD2FA62ACB6F5800E70595 /* cmsio1.c in Sources */,
+				A1DD2F702ACB6F1600E70595 /* UIImage+Utils.swift in Sources */,
+				A1DD2FB72ACB741900E70595 /* Colorizer.mlpackage in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1DD2F192ACB6D8400E70595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1DD2F1A2ACB6D8400E70595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1DD2F1C2ACB6D8400E70595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColotFit/Preview Content\"";
+				DEVELOPMENT_TEAM = 77YZ9248DM;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "깔맞춤";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearfried.ai.ColotFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ColotFit/ColotFit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1DD2F1D2ACB6D8400E70595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColotFit/Preview Content\"";
+				DEVELOPMENT_TEAM = 77YZ9248DM;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "깔맞춤";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearfried.ai.ColotFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ColotFit/ColotFit-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1DD2F082ACB6D8200E70595 /* Build configuration list for PBXProject "ColotFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DD2F192ACB6D8400E70595 /* Debug */,
+				A1DD2F1A2ACB6D8400E70595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1DD2F1B2ACB6D8400E70595 /* Build configuration list for PBXNativeTarget "ColotFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DD2F1C2ACB6D8400E70595 /* Debug */,
+				A1DD2F1D2ACB6D8400E70595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1DD2F052ACB6D8200E70595 /* Project object */;
+}

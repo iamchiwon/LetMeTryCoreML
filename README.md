@@ -12,17 +12,17 @@
 
 ## Projects
 
-### [ParkBirdie (찍새)](https://github.com/iamchiwon/LetMeTryCoreML/tree/main/ParkBirdie)
+### [ParkBirdie (찍새)](/ParkBirdie/README.md)
 - Object Detection
 - 국립공원 안에서 찍은 사진인지 감지
 - 사진에 새가 찍혔는지 감지
 
-### [DailyLog (오늘의일기)](https://github.com/iamchiwon/LetMeTryCoreML/tree/main/DailyLog)
+### [DailyLog (오늘의일기)](/DailyLog/README.md)
 - Text Classification
 - 입력된 텍스트의 감정(긍정/부정) 분류
 
-### 프로젝트3
-
+### [ColotFit (깔맞춤)](/ColotFit/README.md)
+- 흑백이미지를 컬러 사진으로 변경
 ## Resources
 
 ### Slide
