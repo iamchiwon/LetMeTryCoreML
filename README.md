@@ -12,6 +12,9 @@
 
 ## Projects
 
+### [Big Eye (왕눈이)](/BigEye/README.md)
+- 사진에서 글자 추출
+
 ### [ParkBirdie (찍새)](/ParkBirdie/README.md)
 - Object Detection
 - 국립공원 안에서 찍은 사진인지 감지
