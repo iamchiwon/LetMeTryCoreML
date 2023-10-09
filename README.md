@@ -12,6 +12,9 @@
 
 ## Projects
 
+### [NaturalLanguage](/NaturalLanguage/README.md)
+- NaturalLanguage 프레임워크 사용해보기
+
 ### [Big Eye (왕눈이)](/BigEye/README.md)
 - 사진에서 글자 추출
 
