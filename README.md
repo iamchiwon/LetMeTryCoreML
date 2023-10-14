@@ -1,7 +1,6 @@
 # 요즘 유행하는 AI 나도 해보자 (feat. CoreML)
 
 [Let's Swift 2023](https://letswift.kr/2023) 발표 자료
-![cover](cover.jpg)
 
 ### Why CoreML?
 
@@ -34,9 +33,8 @@
 
 ### Slide
 
+[![cover](cover.jpg)](https://www.slideshare.net/ChiwonSong/ai-feat-coreml)
 - [Slideshare](https://www.slideshare.net/ChiwonSong/ai-feat-coreml)
-
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/9ksqbbkPvwzO7h?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 ### Video
 - (TBD)
