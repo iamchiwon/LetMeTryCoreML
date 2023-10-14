@@ -2,6 +2,10 @@
 
 # DailyLog (오늘의일기)
 
+### Screenshot
+
+![screenshot](doc/dailylog.png)
+
 ### ML Model
 
 - Created By CreateML
@@ -11,3 +15,7 @@
 
 - 텍스트 입력
 - 감정 분석 (긍정/부정)
+
+### References
+
+- https://developer.apple.com/documentation/createml

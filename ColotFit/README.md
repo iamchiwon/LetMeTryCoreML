@@ -2,6 +2,10 @@
 
 # ColorFit (깔맞춤)
 
+### Screenshot
+
+![screenshot](doc/colorfit.png)
+
 ### ML Model
 
 - Converted by [coremltools](https://github.com/apple/coremltools)

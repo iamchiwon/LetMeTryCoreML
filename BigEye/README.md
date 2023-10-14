@@ -2,6 +2,10 @@
 
 # BigEye (왕눈이)
 
+### Screenshot
+
+![screenshot](doc/bigeye.png)
+
 ### ML Model
 
 - VisionKit
