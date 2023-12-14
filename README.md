@@ -37,7 +37,8 @@
 - [Slideshare](https://www.slideshare.net/ChiwonSong/ai-feat-coreml)
 
 ### Video
-- (TBD)
+[![video](video.jpg)](https://www.youtube.com/watch?v=UzLyavMqwtI)
+- [Youtube](https://www.youtube.com/watch?v=UzLyavMqwtI)
 
 ## References
 - [Machine Learning
